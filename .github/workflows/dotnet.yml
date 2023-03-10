@@ -27,4 +27,4 @@ jobs:
     - name: Build
       run: dotnet build **/*.sln --no-restore
     - name: Test
-      run: calci.sln
+      run: **/*.sln
