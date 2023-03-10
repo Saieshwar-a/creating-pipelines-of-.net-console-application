@@ -23,7 +23,7 @@ jobs:
     - name: Current directory
       run: ls --all
     - name: Restore dependencies
-      run: dotnet restore
+      run: dotnet restore **/*.sln
     - name: Build
       run: dotnet build --no-restore
     - name: Test
